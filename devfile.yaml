@@ -21,7 +21,7 @@ parent:
 components:
   - name: image-build
     image:
-      imageName: java-quarkus-image:latest
+      imageName: quay.io/ykoer/java-quarkus-image:latest
       dockerfile:
         uri: src/main/docker/Dockerfile.jvm.staged
         buildContext: .
